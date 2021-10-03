@@ -1,0 +1,17 @@
+body {
+    background-color: aqua;
+}
+
+h1 {
+    text-align: center;
+}
+
+ul {
+    text-align: center;
+    list-style: none;
+    margin-right: 35px;
+}
+img {
+    display: block;
+    margin: 0 auto;
+}
