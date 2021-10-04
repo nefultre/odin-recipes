@@ -10,6 +10,14 @@ h1 {
     margin-bottom: 20px;
 }
 
+.nav-container {
+    display: flex;
+}
+
+.peace {
+    height: 100px;
+    width: 100px;
+}
 ul {
     text-align: center;
     list-style: none;
