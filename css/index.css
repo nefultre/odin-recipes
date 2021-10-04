@@ -4,13 +4,16 @@ body {
     background-color: aqua;
     color: rgb(4, 59, 59);
     font-family: 'Gemunu Libre', sans-serif;
+    margin: 0px;
 }
 
 h1 {
     text-align: center;
     font-size: 50px;
-    margin-top: 20px;
+    margin-top: 0px;
     margin-bottom: 20px;
+    padding: 20px;
+    background-color: rgb(146, 201, 201);
 }
 
 .nav-container {
@@ -29,15 +32,14 @@ h1 {
 ul {
     text-align: center;
     list-style: none;
-    padding: 0px;
+    padding: 0px 20px 20px 20px;
     font-size: 30px;
     border-style: solid;
     border-radius: 25px;
-    max-width: 600px;
 }
 
 li {
-    padding: 20px;
+    padding-top: 20px;
 }
 .eating {
     display: block;
