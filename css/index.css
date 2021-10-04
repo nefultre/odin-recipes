@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@300&display=swap');
+
 body {
     background-color: aqua;
     color: rgb(4, 59, 59);
+    font-family: 'Gemunu Libre', sans-serif;
 }
 
 h1 {
@@ -12,9 +15,14 @@ h1 {
 
 .nav-container {
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .peace {
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 0px;
     height: 100px;
     width: 100px;
 }
@@ -24,8 +32,8 @@ ul {
     padding: 0px;
     font-size: 30px;
     border-style: solid;
+    border-radius: 25px;
     max-width: 600px;
-    margin: 35px auto;
 }
 
 li {
